@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>CV</legend>
+        <form action="" method="post">
+            <div>
+                <label for="name">Adınız:</label>
+                <input type="text" name="ad" 
+                id="name" placeholder="Adınız">
+            </div>
+            <br>
+            <div>
+                <label for="surname">Soyadınız:</label>
+                <input type="text" name="surname" id="surname" placeholder="Soyadınız">
+            </div>
+            <br>
+            <div>
+                <label for="TC">TC:</label>
+                <input type="number" name="TC" id="TC" placeholder="TC">
+            </div>
+            <br>
+            <div>
+                <label for="Password">Şifreniz:</label>
+                <input type="text" name="Password" id="Passsword" placeholder="Şifreniz">
+            </div>
+            <br>
+            <div>
+                <label for="City">Yaşadığınız Şehir:</label>
+                <select name="City" id="City">      <option value="İstanbul">İstanbul</option>
+                    <option value="İstanbul">Ankara</option>
+                    <option value="İstanbul">Kars</option>      </select>
+               <!--
+                <select name="City" id="City">Ankara</select>
+               <select name="City" id="City">Ardahan</select>
+               <select name="City" id="City">Kars</select>
+                -->
+            </div>
+            <br>
+            <div>
+                <b>Cinsiyet:</b>
+                <label for="">Erkek</label>
+                <input type="radio" name="Cinsiyet" id="Erkek" value="Erkek">
+                <label for="">Kadın</label>
+                <input type="radio" name="Cinsiyet" id="Kadın" value="Kadın">
+                
+            </div>
+            <br>
+            <div>
+                <b><label>Hobileriniz:</label><br></b>
+                Balık tutmak: <input type="checkbox" name="Balık" id="Balık"><br>
+                Kodlama: <input type="checkbox" name="Kodlama" id="Kodlama"><br>
+                Kitap Okumak: <input type="checkbox" name="Kitap" id="Kitap">
+
+            </div>
+            <br>
+            <div>
+                <label for="cv">Kısa Öz Geçmişiniz</label>
+                <br>
+                <textarea name="cv" id="cv" cols="60" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="Dosya">CV Yükle:</label>
+                <input type="file" name="CV" id="CV">
+            </div>
+            <br>
+            <div>
+                <label for="renk">En Sevdiğiniz Renk:</label>
+                <input type="color" name="Color" id="Color">
+            </div>
+            <br>
+            <div>
+                <label for="RenkAraligi">Renk Aralığı</label>
+                <input type="range" name="RenkAraligi" id="RenkAraligi"
+                min="0" max="100" value="70">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Gönder">
+                <button type="submit">Gönder</button>
+                <button type="button">Gönder</button>
+                <input type="button" value="Gönder">
+            </div>
+        </form>
+    </fieldset>
+    <fieldset>
+        <div>
+            <aUdio src=""></aUdio>
+        </div>
+    </fieldset>
+</body>
+</html>
